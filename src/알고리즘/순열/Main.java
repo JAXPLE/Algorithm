@@ -7,11 +7,12 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        int[] elements = {1, 2, 3};
+        int[] elements = {1, 2, 3, 4, 5};
         List<List<Integer>> permutations = permute(elements);
 
+        int cnt = 0;
         for (List<Integer> perm : permutations) {
-            System.out.println(perm);
+            System.out.println(String.format("%2d",cnt++) + " > " + perm);
         }
     }
 
