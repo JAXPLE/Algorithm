@@ -22,7 +22,7 @@ public class Main {
     }
 
     private static void permuteHelper(int[] nums, int index, List<List<Integer>> result) {
-        if (index == nums.length) {
+          if (index == nums.length) {
             List<Integer> permutation = new ArrayList<>();
             for (int num : nums) {
                 permutation.add(num);
