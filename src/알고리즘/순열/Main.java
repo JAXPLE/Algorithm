@@ -1,5 +1,5 @@
 
-package 순열;
+package 알고리즘.순열;
 
 import java.util.ArrayList;
 import java.util.List;

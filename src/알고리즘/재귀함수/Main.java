@@ -1,4 +1,4 @@
-package 재귀함수;
+package 알고리즘.재귀함수;
 
 public class Main {
     static int fact(int n) {
