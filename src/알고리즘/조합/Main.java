@@ -12,7 +12,7 @@ public class Main {
         System.out.println();
     }
 
-    static void combi(int startIndex, Vector<Integer> b) {
+    static void combination(int startIndex, Vector<Integer> b) {
         if (b.size() == k) {
             print(b);
             return;
@@ -20,13 +20,13 @@ public class Main {
 
         for (int i = startIndex + 1; i < n; i++) {
             b.add(i);
-            combi(i, b);
+            combination(i, b);
             b.remove(b.size() - 1);
         }
     }
 
     public static void main(String[] args) {
         Vector<Integer> b = new Vector<>();
-        combi(-1, b);
+        combination(-1, b);
     }
 }
