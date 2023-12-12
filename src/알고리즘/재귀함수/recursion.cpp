@@ -1,19 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//기저사례
-int fact(int n) {
-    cout << n << '\n';
-    if (n == 0 || n == 1) return 1;
-    return n * fact(n - 1);
-}
-
-int n = 5;
-int main() {
-    cout << fact(n) << " " << '\n';
-    return 0;
-}
-
 /*
 fact (5)
 5 * fact(4)
@@ -29,3 +16,22 @@ fact (5)
 5 * 24 -> fact(4)는 24를 반환함
 fact (5) -> 120
 */
+int fact(int n) {
+    //cout << n << '\n';
+    if (n == 0 || n == 1) return 1;
+    return n * fact(n - 1);
+}
+
+
+int fibo(int n) {
+    //cout << n << '\n';
+    if (n == 0 || n == 1) return 1;
+    return fibo(n - 1) + fibo (n - 2);
+}
+
+int n = 5;
+int main() {
+    cout << "fact -> " << fact(n) << " " << "fibo -> " << fibo(n) << '\n';
+    return 0;
+}
+
