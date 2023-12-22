@@ -25,7 +25,7 @@ class C extends B {
     public AImpl doIt() {
         return new AImpl();
     }
-    public Object execute() { // 그 클래스로 지정해줘야함 ㅋㅋ 상위클래스 올리면 안됌ㅋㅋ
+    public String/*Object*/ execute() { // 그 클래스로 지정해줘야함 ㅋㅋ 상위클래스 올리면 안됌ㅋㅋ
         return null;
     }
 }
