@@ -1,9 +1,6 @@
 package JavaStudy.Thread;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.Future;
-
-class ThreadEx2 extends Thread {
+class ThreadEx1_2 extends Thread {
     @Override
     public void run() {
         for (int i = 0; i < 1000; i++) {
@@ -14,7 +11,7 @@ class ThreadEx2 extends Thread {
     }
 }
 
-class ThreadEx3 implements Runnable {
+class ThreadEx1_3 implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 1000; i++) {
@@ -28,10 +25,10 @@ public class ThreadEx1 {
     public static void main(String[] args) {
 
         while (cntDown < 100) {
-            ThreadEx2 threadEx2 = new ThreadEx2();
-            threadEx2.start();
+            ThreadEx1_2 threadEx12 = new ThreadEx1_2();
+            threadEx12.start();
 
-            Thread thread = new Thread(new ThreadEx3());
+            Thread thread = new Thread(new ThreadEx1_3());
             thread.start();
 
 //            ThreadEx3 threadEx3 = new ThreadEx3();
