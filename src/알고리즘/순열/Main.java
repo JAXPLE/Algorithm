@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        int[] elements = {1, 2, 3, 4, 5};
+        int[] elements = {1, 2, 3};
         List<List<Integer>> permutations = permute(elements);
 
         int cnt = 0;

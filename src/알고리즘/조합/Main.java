@@ -5,7 +5,7 @@ import java.util.Vector;
 public class Main {
     static int[] a = {1, 2, 3, 4, 5};
     static int n = a.length;
-    static int k = 3; //뽑는 조합의 개수
+    static int k = 2; //뽑는 조합의 개수
 
     static void print (Vector<Integer> b) {
         for(int num : b) System.out.print(num);

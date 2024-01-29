@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] main) {
         HastTable<Integer, String> map = new HastTable<>();
 
+
 //        put
         System.out.println("put");
         map.put(10,"십");
