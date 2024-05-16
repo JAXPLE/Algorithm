@@ -1,7 +1,5 @@
 package JavaStudy.NestedClass;
 
-import java.util.Scanner;
-
 public class ButtonExecute {
     public static void main(String[] args) {
         Button button = new Button();
@@ -27,7 +25,7 @@ public class ButtonExecute {
         }
 
         button.setBtnClick(new ClickListener());
-        button.click();
-        System.out.println(button.getBtnClick());
+//        button.click();
+//        System.out.println(button.getBtnClick());
     }
 }
