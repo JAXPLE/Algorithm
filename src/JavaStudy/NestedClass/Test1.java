@@ -8,6 +8,10 @@ class TestButton {
     OnClick onClick;
 
     public void setOnClick(OnClick onClick) {
+        this.onClick = onClick;
+    }
+
+    public void click() {
         this.onClick.onClick();
     }
 }
@@ -23,6 +27,8 @@ public class Test1 {
             }
         }
 
-        testButton.setOnClick(new ClickEvent());
+        ClickEvent clickEvent = new ClickEvent();
+        testButton.setOnClick(clickEvent);
+        testButton.click();
     }
 }
