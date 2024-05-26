@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 class Super {
     private int a;

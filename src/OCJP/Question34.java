@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 class Foo {
     public int a = 3;

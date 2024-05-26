@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 import java.io.File;
 import java.io.IOException;

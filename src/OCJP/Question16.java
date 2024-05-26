@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 class Blip {
     protected int blipvert(int x) {
         return 0;

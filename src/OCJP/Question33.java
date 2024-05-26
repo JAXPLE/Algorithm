@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 class SuperCalc {
     protected static int multiply(int a, int b) {

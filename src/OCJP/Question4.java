@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 class PingPong2 {
     synchronized void hit(long n) {

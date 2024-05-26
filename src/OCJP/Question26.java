@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 import java.text.NumberFormat;
 import java.util.Locale;

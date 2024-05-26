@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 public class Question35 {
     public static void main(String[] args) {

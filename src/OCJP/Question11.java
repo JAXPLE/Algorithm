@@ -1,7 +1,8 @@
-package JavaStudy.OCJP;
 
-import static JavaStudy.OCJP.Rainbow.MyColor.RED;
-import static JavaStudy.OCJP.Rainbow.MyColor.BLUE;
+package OCJP;
+
+import static OCJP.Rainbow.MyColor.RED;
+import static OCJP.Rainbow.MyColor.BLUE;
 
 class Rainbow {
     public enum MyColor {

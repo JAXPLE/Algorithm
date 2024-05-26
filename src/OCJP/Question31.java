@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 public class Question31 implements Comparable<Question31> {
     private int wins, losses;

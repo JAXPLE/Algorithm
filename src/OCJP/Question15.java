@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 public class Question15 {
     static void parse(String str) {

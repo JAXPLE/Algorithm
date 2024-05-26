@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 interface TestInterface {
     String toString();

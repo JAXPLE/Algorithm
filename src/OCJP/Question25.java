@@ -1,4 +1,4 @@
-package JavaStudy.OCJP;
+package OCJP;
 
 import java.text.ParseException;
 import java.util.Date;
