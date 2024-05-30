@@ -1,12 +1,10 @@
 package JavaStudy.Sort;
 
-import java.util.Comparator;
-
-public class User {
+public class ComparableUser implements Comparable<ComparableUser> {
     private String name;
     private int age;
 
-    public User(String name, int age) {
+    public ComparableUser(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -33,5 +31,10 @@ public class User {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    @Override
+    public int compareTo(ComparableUser o) {
+        return Integer.compare(o.age, this.age);
     }
 }
