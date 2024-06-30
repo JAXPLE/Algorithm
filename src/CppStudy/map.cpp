@@ -9,7 +9,8 @@ int main() {
     std::string name1 = "JwonLEE";
     User JwonLEE(name1,age1);
 
-    userData.insert(std::make_pair(JwonLEE.name, JwonLEE));
+    // userData.insert(std::make_pair(JwonLEE.name, JwonLEE));
+    userData.insert(std::pair<std::string, User>(JwonLEE.name, JwonLEE));
 
 
     User user1 = userData.at(JwonLEE.name);
